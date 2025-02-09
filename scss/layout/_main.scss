@@ -1,0 +1,22 @@
+#main {
+    min-height: 100vh;
+    margin: 0 10%;
+}
+.left {
+    grid-column: span 2;  
+}
+.right {
+    padding: 1rem 3rem;
+    grid-column: span 5;
+}
+@media (max-width:1200px) {
+    #main {
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    #main {
+        display: block;
+    }
+}

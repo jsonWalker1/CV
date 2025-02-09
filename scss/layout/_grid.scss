@@ -1,0 +1,15 @@
+#main{
+    @include grid(7, 0rem)
+}
+@media (max-width: 500px) {
+    
+}
+.timeline {
+    @include grid(2, 0rem)
+}
+
+@media (max-width: 1000px) {
+    .timeline {
+        display: block;
+    }
+}

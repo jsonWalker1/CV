@@ -1,0 +1,22 @@
+#header {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+    
+    }
+.maintext{
+    position: absolute;
+    margin: 0 auto;
+    color: $neonPink;
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+

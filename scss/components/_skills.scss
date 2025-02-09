@@ -1,0 +1,17 @@
+.skills {
+    text-align: center;
+    padding: 1rem;
+    color: $neonBlue;
+    padding-bottom: 3rem;
+    h2 {
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: map-get($font-weights , 'bolt' );
+    }
+    i{
+        font-size: 1.5rem;
+        display: block;
+        padding: 2rem 0;
+    }
+}
+

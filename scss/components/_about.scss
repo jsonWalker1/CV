@@ -1,0 +1,31 @@
+.right {
+    background-color: $backgroundProfile;
+    color: $neonPink;
+    h1{
+        padding: 2rem 0;
+        text-transform: uppercase;
+        position: relative;
+    }
+    h1::after{
+        content: '';
+        position: absolute;
+        width: 70%;
+        height: .3rem;
+        background-color: $neonPink;
+        right: 0;
+        top: 46%;
+    }
+    @media (max-width: 1000px) {
+        h1::after {
+            width: 40%;
+        }
+    }
+}
+.about-me-text {
+    p{
+        line-height: 1.5;
+        padding: 2rem auto;
+        font-size: 1rem;
+        font-family: Michroma;
+    }
+}
