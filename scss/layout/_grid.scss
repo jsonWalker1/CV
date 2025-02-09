@@ -1,6 +1,7 @@
 #main{
     @include grid(7, 0rem)
 }
+
 @media (max-width: 500px) {
     
 }
@@ -12,4 +13,8 @@
     .timeline {
         display: block;
     }
+}
+
+.education-content {
+    @include grid (2,0rem)
 }

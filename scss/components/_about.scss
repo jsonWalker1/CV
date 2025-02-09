@@ -20,6 +20,11 @@
             width: 40%;
         }
     }
+    @media (max-width: 500px) {
+        h1::after {
+            width: 20%;
+        }
+    }
 }
 .about-me-text {
     p{
