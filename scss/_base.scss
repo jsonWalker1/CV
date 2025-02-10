@@ -9,3 +9,17 @@
 body {
     background-color: $background;    
 }
+/*
+html::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(252, 252, 252, 0.2) 2px, transparent 1px),
+                    linear-gradient(90deg, rgba(253, 252, 252, 0.2) 2px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 9999;
+} */
