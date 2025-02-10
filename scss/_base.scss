@@ -7,8 +7,5 @@
     user-select: none;
 }
 body {
-    background-image: url('/IMG/main-background.jpg'); /* Cesta k obrázku */
-    background-size: cover; /* Přizpůsobení velikosti */
-    background-position: center; /* Zarovnání na střed */
-    background-repeat: no-repeat; /* Zakáže opakování */
+    background-color: $background;    
 }
