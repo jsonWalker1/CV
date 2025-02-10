@@ -1,33 +1,56 @@
 .contact-info {
     padding: 1.5rem 0;
     text-align: center;
+
     .contact-list {
         list-style: none;
+
         li {
             color: $neonBlue; 
-                text-decoration: none;
-                font-size: 1.5rem;
-                font-weight: map-get($font-weights, 'bold'); 
-                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-                align-items: center;
-                padding: 1.5rem 0;
-           a {
+            font-size: 1.5rem;
+            font-weight: map-get($font-weights, 'bold'); 
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            align-items: center;
+            padding: 1.5rem 0;
+            position: relative;
+
+            a {
                 color: $neonBlue; 
                 text-decoration: none;
                 font-size: 1.5rem;
                 font-weight: map-get($font-weights, 'bold'); 
                 transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
                 align-items: center;
-                
+                display: inline-block;
+                position: relative;
+                &:hover {
+                    box-shadow: 0 0 10px $neonBlue;
+                }
+
                 i {
                     margin-right: 1rem;
                     font-size: 1.8rem; 
                 }
+            
 
+            /* Specifické CSS pouze pro telefonní čísla */
+            .tel a{
+                &:hover::before {
+                    content: '+420 725 824 879'; /* Sem dej číslo */
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    color: $neonBlue;
+                    text-align: center;
+                }
                 &:hover {
-                    box-shadow: 0 0 10px $neonBlue; 
+                    color: transparent;
+                    box-shadow: 0 0 10px $neonBlue;
+
+                
                 }
             }
         }
     }
+}
 }

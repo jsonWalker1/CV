@@ -9,7 +9,7 @@
     h1::after{
         content: '';
         position: absolute;
-        width: 70%;
+        width: 60%;
         height: .3rem;
         background-color: $neonPink;
         right: 0;
@@ -17,12 +17,22 @@
     }
     @media (max-width: 1000px) {
         h1::after {
+            width: 55%;
+        }
+    }
+    @media (max-width: 800px) {
+        h1::after {
             width: 40%;
         }
     }
     @media (max-width: 500px) {
         h1::after {
             width: 20%;
+        }
+    }
+    @media (max-width: 660px) {
+        h1::after {
+            width: 30%;
         }
     }
 }
